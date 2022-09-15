@@ -1,5 +1,9 @@
-package mygo 
+package mygo
 
-func libFunc(str string = '') {
+import (
+	"fmt"
+)
+
+func libFunc(str string) {
 	fmt.Println("------lib func -------",str)
 }
