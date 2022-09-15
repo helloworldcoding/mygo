@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func libFunc(str string) {
+func LibFunc(str string) {
 	fmt.Println("------lib func -------",str)
 }
